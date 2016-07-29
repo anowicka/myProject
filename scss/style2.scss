@@ -1,0 +1,149 @@
+    * {
+        font-size: 10px;
+    }
+    
+    html {
+        background-color: #6f74fa;
+    }
+    
+    html,
+    body {
+        width: 100%;
+    }
+    
+    //h3 {
+    //    margin-left: 4rem;
+    //}
+    //
+    //figure {
+    //    height: 0;
+    //    padding-bottom: 56.25%;
+    //    position: relative;
+    //    width: 100%;
+    //    
+    //}
+    //.yt{
+    //    background-color: rgba(255, 255, 0, 0.63);
+    //}
+    //iframe {
+    //    height: 100%;
+    //    left: 0;
+    //    position: absolute;
+    //    top: 0;
+    //    width: 100%;
+    //}
+    header {
+        background-image: url(../images/3.jpg);
+        background-size: cover;
+        // background-attachment: fixed;
+        position: relative;
+        width: 100%;
+        .stripe-head {
+            position: absolute;
+            height: 200px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.14);
+            top: 5rem;
+        }
+        form {
+            position: absolute;
+            top: 2rem;
+            right: 4rem;
+            input {
+                height: 3rem;
+                width: 15rem;
+                border-radius: 0;
+                font-size: 1.5rem;
+                //position: relative;
+            }
+            a {
+                //position: absolute;
+                text-decoration: none;
+                font-size: 1.5em;
+            }
+        }
+        .logocompany {
+            width: 10rem;
+            height: 10rem;
+            border: 8px solid white;
+            transform: rotate(45deg);
+            margin: 4rem;
+            //        @media (max-width: 550px) {
+            //            margin: 4rem auto;
+            //        }
+            p {
+                text-align: center;
+                transform: rotate(-45deg);
+                line-height: 10rem;
+                font-size: 2rem;
+                font-weight: 900;
+                color: white;
+            }
+        }
+        .text-head {
+            color: white;
+            margin-top: 25rem;
+        }
+    }
+    
+    #products {
+        position: relative;
+        height: 400px;
+        background-color: black;
+        .animation-examples {
+            width: 100px;
+            height: 30px;
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: cambria;
+        }
+        .animation-examples.one {
+            color: white;
+            outline: 3px dashed rgba(255, 255, 255, 0.35);
+            box-shadow: 0 0 0 3px rgba(124, 67, 0, 0.62);
+            animation: 1s animateBorderOne ease infinite;
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 1.5rem;
+                padding: 2rem;
+            }
+        }
+        @keyframes animateBorderOne {
+            to {
+                outline-color: rgba(124, 67, 0, 0.62);
+                box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.35);
+            }
+        }
+        .check-products {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+            @media (max-width: 720px) {
+                flex-direction: column;
+            }
+        }
+    }
+
+//.card-products{
+//   
+//    [class*="cat-prod"]{
+//        display: flex;
+//        justify-content: center;
+//        height: 50px;
+//        width: 50px;
+//        background-color: greenyellow;
+//        
+//    }
+//    .moreinfoprod{
+//             display: table-cell;
+//            vertical-align: middle;
+//            text-align: center;
+//            font-size: 15px;
+//            font-weight: bold;
+//        }      
+//}

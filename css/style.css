@@ -1,0 +1,606 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+* {
+  font-size: 10px; }
+
+/* line 5, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+html {
+  background-color: #6f74fa; }
+
+/* line 9, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+html,
+body {
+  width: 100%; }
+
+/* line 35, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+header {
+  background-image: url(../images/3.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100%; }
+  /* line 41, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+  header .stripe-head {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.14);
+    top: 5rem; }
+  /* line 48, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+  header form {
+    position: absolute;
+    top: 2rem;
+    right: 4rem; }
+    /* line 52, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+    header form input {
+      height: 3rem;
+      width: 15rem;
+      border-radius: 0;
+      font-size: 1.5rem; }
+    /* line 59, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+    header form a {
+      text-decoration: none;
+      font-size: 1.5em; }
+  /* line 65, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+  header .logocompany {
+    width: 10rem;
+    height: 10rem;
+    border: 8px solid white;
+    transform: rotate(45deg);
+    margin: 4rem; }
+    /* line 74, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+    header .logocompany p {
+      text-align: center;
+      transform: rotate(-45deg);
+      line-height: 10rem;
+      font-size: 2rem;
+      font-weight: 900;
+      color: white; }
+  /* line 83, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+  header .text-head {
+    color: white;
+    margin-top: 25rem; }
+
+/* line 89, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+#products {
+  position: relative;
+  height: 400px;
+  background-color: black; }
+  /* line 93, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+  #products .animation-examples {
+    width: 100px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cambria; }
+  /* line 103, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+  #products .animation-examples.one {
+    color: white;
+    outline: 3px dashed rgba(255, 255, 255, 0.35);
+    box-shadow: 0 0 0 3px rgba(124, 67, 0, 0.62);
+    animation: 1s animateBorderOne ease infinite; }
+    /* line 108, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+    #products .animation-examples.one a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5rem;
+      padding: 2rem; }
+
+@keyframes animateBorderOne {
+  to {
+    outline-color: rgba(124, 67, 0, 0.62);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.35); } }
+  /* line 121, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+  #products .check-products {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    flex-wrap: wrap; }
+    @media (max-width: 720px) {
+      /* line 121, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style2.scss */
+      #products .check-products {
+        flex-direction: column; } }
+
+/* line 4, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+* {
+  font-size: 10px; }
+
+/* line 8, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+html {
+  background-color: #e2e2e2; }
+
+/* line 12, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+html,
+body {
+  width: 100%; }
+
+/* line 17, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+div.dialog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #cacaca;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media (max-width: 1920px) and (orientation: portrait) {
+  /* line 30, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  body {
+    display: block;
+    width: 100%;
+    float: none; } }
+
+@media (min-width: 1200px) {
+  /* line 38, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  .container {
+    max-width: 1200px; } }
+
+@media (min-width: 840px) {
+  /* line 44, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  .hidemenu {
+    display: none; } }
+
+@media (max-width: 850px) {
+  /* line 50, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  .headshape {
+    display: none; } }
+
+@media (max-width: 550px) {
+  /* line 56, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  h6 {
+    font-size: 2rem; } }
+
+@media (max-width: 1020px) and (min-width: 550px) {
+  /* line 62, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  .rowhead {
+    display: block; } }
+
+/* line 67, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+#header {
+  background-image: url(../images/1.jpg);
+  background-size: cover; }
+  /* line 70, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #header .logocompany {
+    width: 10rem;
+    height: 10rem;
+    border: 8px solid #ffffff;
+    transform: rotate(45deg);
+    margin: 5rem; }
+    @media (max-width: 550px) {
+      /* line 70, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      #header .logocompany {
+        margin: 4rem auto; } }
+    /* line 79, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #header .logocompany p {
+      text-align: center;
+      transform: rotate(-45deg);
+      line-height: 10rem;
+      font-size: 2rem;
+      font-weight: 900;
+      color: #ffffff; }
+  /* line 88, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #header .menu-main {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 0; }
+    @media (max-width: 422px) {
+      /* line 88, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      #header .menu-main {
+        justify-content: center;
+        margin-bottom: 6rem; } }
+    /* line 97, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #header .menu-main .hidemenu {
+      color: white;
+      font-size: 3rem;
+      letter-spacing: .2rem;
+      margin-right: 17rem;
+      margin-top: 0rem;
+      margin-bottom: 2rem; }
+    /* line 105, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #header .menu-main .menu-header {
+      margin-top: 7.5em;
+      margin-right: 3rem; }
+      /* line 108, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      #header .menu-main .menu-header nav ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        margin-bottom: 6rem; }
+        @media (max-width: 480px) {
+          /* line 108, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+          #header .menu-main .menu-header nav ul {
+            flex-direction: column;
+            margin-bottom: 6rem;
+            margin-top: -6rem; } }
+        /* line 119, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+        #header .menu-main .menu-header nav ul li {
+          text-align: center;
+          list-style-type: none;
+          color: #ffffff; }
+          /* line 123, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+          #header .menu-main .menu-header nav ul li::before {
+            content: " ";
+            display: block;
+            width: 100%;
+            border-top: 0.2rem solid #ffffff;
+            padding: 0.2rem;
+            transition: rotate 1s; }
+          /* line 131, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+          #header .menu-main .menu-header nav ul li::after {
+            content: " ";
+            display: block;
+            width: 100%;
+            border-bottom: 0.2rem solid #ffffff;
+            padding: 0.2rem;
+            transition: rotate 1s; }
+          /* line 139, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+          #header .menu-main .menu-header nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 1.3rem;
+            font-size: 1.5rem; }
+          /* line 145, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+          #header .menu-main .menu-header nav ul li:hover {
+            -webkit-animation-name: pulse;
+            animation-name: pulse; }
+            /* line 148, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+            #header .menu-main .menu-header nav ul li:hover::before {
+              transform: rotate(27deg) translateX(7px) translateY(15px); }
+            /* line 151, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+            #header .menu-main .menu-header nav ul li:hover::after {
+              transform: rotate(-27deg) translateX(7px) translateY(-15px); }
+
+/* line 161, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+.headshape {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15rem; }
+
+/* line 167, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+.main-short-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 3rem;
+  margin-top: 2rem;
+  width: 27rem;
+  height: 27rem;
+  border: 2px solid #ffffff;
+  transform: rotate(-45deg); }
+  /* line 178, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  .main-short-info p {
+    transform: rotate(45deg);
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem; }
+    /* line 183, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    .main-short-info p span {
+      font-size: 3rem;
+      font-weight: 600; }
+  /* line 188, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  .main-short-info:hover {
+    background-color: rgba(0, 0, 0, 0.29);
+    border: 2px solid black; }
+
+@media (max-width: 460px) {
+  /* line 195, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  .main-short-info {
+    width: 20rem;
+    height: 20rem; }
+    /* line 198, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    .main-short-info p {
+      font-size: 1.5rem; }
+      /* line 200, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      .main-short-info p span {
+        font-size: 2rem; } }
+
+/* line 207, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+h4 {
+  color: #ffffff;
+  text-align: center;
+  padding: 5rem 4rem;
+  padding-bottom: 0;
+  font-size: 5rem;
+  font-weight: 600; }
+
+/* line 217, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+#section1 {
+  background-color: #ffffff; }
+  /* line 219, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section1 .section-head-text {
+    text-align: center;
+    padding: 0rem 2rem; }
+    /* line 222, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #section1 .section-head-text h4 {
+      color: black; }
+    /* line 225, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #section1 .section-head-text p {
+      font-size: 1.5rem;
+      line-height: 3.3rem; }
+  /* line 230, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section1 .social {
+    display: flex;
+    justify-content: center; }
+    /* line 233, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #section1 .social .social-icons li {
+      display: inline-block;
+      list-style-type: none; }
+    /* line 237, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #section1 .social a {
+      display: inline-block;
+      width: 5rem;
+      height: 5rem;
+      background: url("../images/img-sprite.png") no-repeat 0px 0px;
+      transition: background-position 1s; }
+      /* line 243, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      #section1 .social a.facebook {
+        background-position: 0px 0px; }
+        /* line 245, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+        #section1 .social a.facebook:hover {
+          background-position: 0 -50px; }
+      /* line 249, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      #section1 .social a.twitter {
+        background-position: -50px 0; }
+        /* line 251, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+        #section1 .social a.twitter:hover {
+          background-position: -50px -50px; }
+      /* line 255, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      #section1 .social a.googleplus {
+        background-position: -100px 0; }
+        /* line 257, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+        #section1 .social a.googleplus:hover {
+          background-position: -100px -50px; }
+      /* line 261, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      #section1 .social a.instagram {
+        background-position: -150px 0; }
+        /* line 263, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+        #section1 .social a.instagram:hover {
+          background-position: -150px -50px; }
+      /* line 267, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      #section1 .social a.youtube {
+        background-position: -200px 0; }
+        /* line 269, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+        #section1 .social a.youtube:hover {
+          background-position: -200px -50px; }
+      /* line 273, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+      #section1 .social a.itunes {
+        background-position: -250px 0; }
+        /* line 275, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+        #section1 .social a.itunes:hover {
+          background-position: -250px -50px; }
+
+/* line 284, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+#section2 {
+  background-image: url(../images/about.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  /* line 288, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section2 h4 {
+    color: #ffffff;
+    text-align: center;
+    padding: 5rem 4rem;
+    padding-bottom: 0;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 5rem; }
+  /* line 297, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section2 img {
+    margin-left: 0;
+    width: 100%; }
+    /* line 300, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #section2 img:hover {
+      -webkit-animation-name: pulse;
+      animation-name: pulse; }
+
+@media (min-width: 320px) and (max-width: 549px) {
+  /* line 308, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section2 img {
+    width: 80%;
+    margin-left: 12%;
+    margin-right: 10%; } }
+
+/* line 315, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+h6 {
+  color: #ffffff;
+  text-align: center; }
+
+/* line 321, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+#portfolio {
+  background-color: #ffffff; }
+  /* line 323, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #portfolio h4 {
+    color: black;
+    font-weight: 600; }
+  /* line 327, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #portfolio .imgport {
+    width: 90%;
+    border: 0.2rem solid rgba(128, 128, 128, 0.33);
+    margin-left: 1rem;
+    margin-bottom: 2rem; }
+    /* line 333, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #portfolio .imgport:hover {
+      -webkit-animation-name: pulse;
+      animation-name: pulse; }
+
+/* line 340, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+.fullScreen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.7); }
+
+/* line 350, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+.fullScreen .close {
+  display: block;
+  margin: auto; }
+
+/* line 355, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+.fullScreen img {
+  display: block;
+  margin: 50px auto;
+  width: 800px;
+  /*tu sobie mogę zmienić rozmiar obrazka na full*/
+  height: 800px; }
+
+/* line 364, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+#stats {
+  background-image: url(../images/s1.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  /* line 368, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #stats p {
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 4rem;
+    padding-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 400; }
+  /* line 376, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #stats img {
+    width: 70%;
+    padding: 2rem 3rem; }
+  /* line 381, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #stats .statystic .numscroller {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center; }
+  /* line 388, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #stats h6 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.6rem; }
+
+@media (max-width: 550px) {
+  /* line 396, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #stats img {
+    padding: 2rem 7rem; } }
+
+/* line 402, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+.scrolloff {
+  pointer-events: none; }
+
+/* line 407, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+#section-coctact {
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  /* line 411, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section-coctact h4 {
+    margin-bottom: 5rem; }
+  /* line 417, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section-coctact input {
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 0px;
+    font-size: 2rem;
+    color: white;
+    height: 5rem; }
+  /* line 424, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section-coctact .form-left, #section-coctact .form-right {
+    display: flex;
+    flex-direction: column; }
+  /* line 428, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section-coctact .form-left {
+    justify-content: flex-end;
+    margin-left: 5rem; }
+    /* line 432, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #section-coctact .form-left input {
+      width: 100%;
+      margin-bottom: 2.2rem; }
+  /* line 437, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section-coctact .form-right {
+    justify-content: flex-start;
+    margin-right: 5rem; }
+    /* line 441, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #section-coctact .form-right input {
+      width: 100%;
+      height: 19.5rem;
+      padding-bottom: 16rem; }
+  /* line 447, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  #section-coctact .btn-message {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem; }
+    /* line 451, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    #section-coctact .btn-message button {
+      background-color: rgba(255, 255, 255, 0.26);
+      border-radius: 0;
+      color: white; }
+
+@media (max-width: 550px) {
+  /* line 460, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  .form-left {
+    margin-right: 5rem; }
+  /* line 463, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  .form-right {
+    margin-left: 5rem; } }
+
+@media (max-width: 590px) {
+  /* line 469, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  footer ul,
+  p {
+    text-align: center; } }
+
+@media (min-width: 591px) {
+  /* line 476, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  footer p {
+    padding-left: 7%; } }
+
+/* line 481, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+footer {
+  background-color: #434242; }
+  /* line 483, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  footer p {
+    font-size: 1.5rem;
+    color: rgba(0, 148, 240, 0.97);
+    padding-top: 2rem; }
+  /* line 489, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  footer ul .ulfooter, footer ul li, footer ul li a {
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 1.5rem; }
+  /* line 494, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  footer ul li {
+    padding-left: 2rem;
+    line-height: 1.4rem; }
+    /* line 498, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+    footer ul li a {
+      text-decoration: none; }
+  /* line 504, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  footer hr {
+    width: 95%;
+    margin-top: 0;
+    margin-bottom: 0; }
+  /* line 509, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  footer span {
+    margin-left: 35%;
+    color: #ffffff; }
+  /* line 513, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+  footer h6 {
+    padding-top: 2rem;
+    font-size: 1.3rem; }
+
+/* line 519, C:/Users/Agata/Desktop/projektCodersLab/myProject/scss/style.scss */
+#toTop {
+  display: block;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  border: none;
+  text-indent: 100%;
+  background: url("../web/images/to-top2.png") no-repeat 0px 0px; }
